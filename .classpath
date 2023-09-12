@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/Java1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/httpclient-4.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/accessors-smart-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/asm-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/json-path-2.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/json-smart-2.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/slf4j-api-1.7.16.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/slf4j-log4j12-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-net-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-net-3.6-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-net-examples-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/jsch-0.1.50.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/json-20140107.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/servlet-api-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Code/okhttp-4.9.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Code/annotations-13.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Code/kotlin-stdlib-1.3.50.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Code/kotlin-stdlib-common-1.3.50.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Code/okio-2.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/jjwt-0.9.1.jar"/>
+	<classpathentry kind="lib" path="C:/Work/Apps/Workspace/HttpRequest/jjwt-api-0.11.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

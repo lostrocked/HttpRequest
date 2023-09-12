@@ -1,0 +1,409 @@
+{
+	"metaData": {
+		"managementServer": "lvndev002941.bpc.broadcom.net",
+		"creationDate": "Jan 31, 2020 7:57 PM",
+		"author": "sachin.srivastava@broadcom.com",
+		"version": "6.6.0.10228"
+	},
+	"data": [
+		{
+			"status": "EXPORTED",
+			"referencedObjects": {
+				"sharedComponentFlows": [
+					{
+						"type": "SC_FLOW",
+						"fullPath": "Tomcat Express/Tomcat Express/2.3/Flows/Deploy",
+						"referenceId": "@Tomcat Express/Tomcat Express/2.3/Flows/Deploy"
+					},
+					{
+						"type": "SC_FLOW",
+						"fullPath": "UTILITY/UTILITY/1.3/Flows/General/Revision-1/RegisterArtifacts",
+						"referenceId": "@UTILITY/UTILITY/1.3/Flows/General/Revision-1/RegisterArtifacts"
+					}
+				],
+				"sharedComponentParameters": [
+					{
+						"type": "PARAMETER",
+						"referenceId": "@Tomcat Express/Tomcat Express/2.3/Deploy as exploded?",
+						"parameterType": "BOOLEAN",
+						"path": "Tomcat Express/Tomcat Express/2.3/Deploy as exploded?"
+					},
+					{
+						"type": "PARAMETER",
+						"referenceId": "@Tomcat Express/Tomcat Express/2.3/Tomcat home",
+						"parameterType": "STRING",
+						"path": "Tomcat Express/Tomcat Express/2.3/Tomcat home"
+					},
+					{
+						"type": "PARAMETER",
+						"referenceId": "@UTILITY/UTILITY/1.3/General/workspace",
+						"parameterType": "STRING",
+						"path": "UTILITY/UTILITY/1.3/General/workspace"
+					}
+				],
+				"sharedComponents": [
+					{
+						"type": "SHARED_COMPONENT_REVISION",
+						"referenceId": "@Tomcat Express/Tomcat Express/2.3",
+						"sharedComponentName": "Tomcat Express",
+						"revisionName": "Tomcat Express",
+						"revisionVersion": "2.3"
+					},
+					{
+						"type": "SHARED_COMPONENT_REVISION",
+						"referenceId": "@UTILITY/UTILITY/1.3",
+						"sharedComponentName": "UTILITY",
+						"revisionName": "UTILITY",
+						"revisionVersion": "1.3"
+					}
+				]
+			},
+			"scope": {},
+			"object": {
+				"type": "APPLICATION",
+				"referenceId": "@myweb",
+				"name": "myweb",
+				"description": "(imported)myweb",
+				"uuid": "be1048be-a285-4266-b6d9-78832eb73c31",
+				"components": [
+					{
+						"type": "COMPONENT",
+						"referenceId": "@Common",
+						"name": "Common",
+						"description": ""
+					}
+				],
+				"mappedSharedComponents": [
+					"@Tomcat Express/Tomcat Express/2.3",
+					"@UTILITY/UTILITY/1.3"
+				],
+				"serverTypes": [
+					{
+						"type": "SERVER_TYPE",
+						"referenceId": "@Tomcat",
+						"name": "Tomcat",
+						"description": "Tomcat",
+						"exclusiveExecution": false,
+						"mappedComponents": [
+							"@Common"
+						],
+						"mappedSharedComponents": [
+							"@Tomcat Express/Tomcat Express/2.3"
+						]
+					},
+					{
+						"type": "SERVER_TYPE",
+						"referenceId": "@Utility",
+						"name": "Utility",
+						"description": "Utility",
+						"exclusiveExecution": false,
+						"mappedComponents": [
+							"@Common"
+						],
+						"mappedSharedComponents": [
+							"@UTILITY/UTILITY/1.3"
+						]
+					}
+				],
+				"architectures": [
+					{
+						"type": "ARCHITECTURE",
+						"referenceId": "@myweb-Arch",
+						"name": "myweb-Arch",
+						"description": "myweb-Arch",
+						"mappedServerTypes": [
+							"@Tomcat",
+							"@Utility"
+						],
+						"environments": [
+							{
+								"type": "ENVIRONMENT",
+								"referenceId": "@Unit",
+								"name": "Unit",
+								"description": "Unit",
+								"serverTypesToAgents": [
+									{
+										"serverType": "@Tomcat",
+										"agents": [
+											"lvntest003613.bpc.broadcom.net"
+										]
+									},
+									{
+										"serverType": "@Utility",
+										"agents": [
+											"lvndev002945.bpc.broadcom.net"
+										]
+									}
+								],
+								"mappedProcessTags": [
+									"@myweb-Arch/Processes/POST-Deploy",
+									"@myweb-Arch/Processes/Pre-Plan",
+									"@myweb-Arch/Processes/Tomcat-Deploy",
+									"@myweb-Arch/Processes/Tomcat-Deploy/Tag1"
+								],
+								"parameterValues": [
+									{
+										"parameter": "@Tomcat Express/Tomcat Express/2.3/Deploy as exploded?",
+										"simpleValue": "true",
+										"serverTypes": []
+									},
+									{
+										"parameter": "@Tomcat Express/Tomcat Express/2.3/Tomcat home",
+										"simpleValue": "/usr/share/tomcat7/",
+										"serverTypes": []
+									},
+									{
+										"parameter": "@UTILITY/UTILITY/1.3/General/workspace",
+										"simpleValue": "/opt/my-app",
+										"serverTypes": []
+									}
+								]
+							}
+						],
+						"processCategories": [
+							{
+								"type": "PROCESS_CATEGORY",
+								"referenceId": "@myweb-Arch/Processes",
+								"name": "Processes",
+								"description": "",
+								"processes": [
+									{
+										"type": "PROCESS",
+										"referenceId": "@myweb-Arch/Processes/POST-Deploy",
+										"name": "POST-Deploy",
+										"description": "",
+										"processServerTypes": [
+											{
+												"type": "PROCESS_SERVER_TYPE",
+												"name": "@Tomcat"
+											}
+										],
+										"tags": [
+											{
+												"type": "PROCESS_TAG",
+												"referenceId": "@myweb-Arch/Processes/POST-Deploy",
+												"latest": true,
+												"processServerTypes": [
+													{
+														"type": "PROCESS_SERVER_TYPE",
+														"name": "@Tomcat"
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "PROCESS",
+										"referenceId": "@myweb-Arch/Processes/Pre-Plan",
+										"name": "Pre-Plan",
+										"description": "",
+										"processServerTypes": [
+											{
+												"type": "PROCESS_SERVER_TYPE",
+												"name": "@Utility",
+												"logic": {
+													"sharedComponentFlow": "@UTILITY/UTILITY/1.3/Flows/General/Revision-1/RegisterArtifacts"
+												}
+											}
+										],
+										"tags": [
+											{
+												"type": "PROCESS_TAG",
+												"referenceId": "@myweb-Arch/Processes/Pre-Plan",
+												"latest": true,
+												"processServerTypes": [
+													{
+														"type": "PROCESS_SERVER_TYPE",
+														"name": "@Utility",
+														"logic": {
+															"sharedComponentFlow": "@UTILITY/UTILITY/1.3/Flows/General/Revision-1/RegisterArtifacts"
+														}
+													}
+												]
+											}
+										]
+									},
+									{
+										"type": "PROCESS",
+										"referenceId": "@myweb-Arch/Processes/Tomcat-Deploy",
+										"name": "Tomcat-Deploy",
+										"description": "Tomcat-Deploy",
+										"processServerTypes": [
+											{
+												"type": "PROCESS_SERVER_TYPE",
+												"name": "@Tomcat",
+												"logic": {
+													"sharedComponentFlow": "@Tomcat Express/Tomcat Express/2.3/Flows/Deploy"
+												}
+											}
+										],
+										"tags": [
+											{
+												"type": "PROCESS_TAG",
+												"referenceId": "@myweb-Arch/Processes/Tomcat-Deploy",
+												"latest": true,
+												"processServerTypes": [
+													{
+														"type": "PROCESS_SERVER_TYPE",
+														"name": "@Tomcat",
+														"logic": {
+															"sharedComponentFlow": "@Tomcat Express/Tomcat Express/2.3/Flows/Deploy"
+														}
+													}
+												]
+											},
+											{
+												"type": "PROCESS_TAG",
+												"referenceId": "@myweb-Arch/Processes/Tomcat-Deploy/Tag1",
+												"name": "Tag1",
+												"description": "Tag1",
+												"latest": false,
+												"processServerTypes": [
+													{
+														"type": "PROCESS_SERVER_TYPE",
+														"name": "@Tomcat",
+														"logic": {
+															"sharedComponentFlow": "@Tomcat Express/Tomcat Express/2.3/Flows/Deploy"
+														}
+													}
+												]
+											}
+										]
+									}
+								],
+								"processCategories": []
+							}
+						]
+					}
+				],
+				"templateCategories": [
+					{
+						"type": "TEMPLATE_CATEGORY",
+						"referenceId": "@SomeApplication1-Temp1",
+						"name": "SomeApplication1-Temp1",
+						"description": "SomeApplication1-Temp1",
+						"allowModificationBeforeRun": false,
+						"status": "Locked",
+						"properties": [
+							{
+								"type": "TEMPLATE_PROPERTY",
+								"referenceId": "@SomeApplication1-Temp1/workspace",
+								"name": "workspace",
+								"value": ""
+							}
+						],
+						"steps": {
+							"initialization": [
+								{
+									"type": "STEP",
+									"referenceId": "@SomeApplication1-Temp1/Pre-Plan-STEP",
+									"name": "Pre-Plan-STEP",
+									"environment": "@Unit",
+									"processTag": "@myweb-Arch/Processes/Pre-Plan",
+									"stage": "PRE_PLAN"
+								}
+							],
+							"deployment": [
+								{
+									"type": "STEP",
+									"referenceId": "@SomeApplication1-Temp1/TD",
+									"name": "TD",
+									"triggerRollbackOnFailure": true,
+									"mustSucceed": true,
+									"processTag": "@myweb-Arch/Processes/Tomcat-Deploy/Tag1",
+									"stage": "DEPLOYMENT"
+								},
+								{
+									"type": "STEP",
+									"referenceId": "@SomeApplication1-Temp1/Tomcat-Deploy",
+									"name": "Tomcat-Deploy",
+									"triggerRollbackOnFailure": true,
+									"mustSucceed": true,
+									"processTag": "@myweb-Arch/Processes/Tomcat-Deploy",
+									"stage": "DEPLOYMENT"
+								}
+							],
+							"postDeployment": [
+								{
+									"type": "STEP",
+									"referenceId": "@SomeApplication1-Temp1/POST-DEPLOY",
+									"name": "POST-DEPLOY",
+									"triggerRollbackOnFailure": true,
+									"mustSucceed": true,
+									"processTag": "@myweb-Arch/Processes/POST-Deploy",
+									"stage": "POST_DEPLOYMENT"
+								},
+								{
+									"type": "STEP",
+									"referenceId": "@SomeApplication1-Temp1/POST-DEPLoy1",
+									"name": "POST-DEPLoy1",
+									"triggerRollbackOnFailure": true,
+									"mustSucceed": true,
+									"processTag": "@myweb-Arch/Processes/Pre-Plan",
+									"stage": "POST_DEPLOYMENT"
+								}
+							]
+						},
+						"deploymentTemplates": [
+							{
+								"type": "DEPLOYMENT_TEMPLATE",
+								"referenceId": "@SomeApplication1-Temp1/Deployment-Tomcat",
+								"name": "Deployment-Tomcat",
+								"description": "Deployment-Tomcat",
+								"stages": {
+									"initialization": {
+										"prePlan": "@SomeApplication1-Temp1/Pre-Plan-STEP",
+										"preDeployment": ""
+									},
+									"deployment": {
+										"steps": [
+											{
+												"step": "@SomeApplication1-Temp1/TD",
+												"dependencies": []
+											},
+											{
+												"step": "@SomeApplication1-Temp1/Tomcat-Deploy",
+												"dependencies": []
+											}
+										]
+									},
+									"postDeployment": {
+										"alwaysRunPostDeployment": false,
+										"failDeploymentOnPostDeploymentFailure": false,
+										"startRunAutomatically": true,
+										"steps": [
+											{
+												"step": "@SomeApplication1-Temp1/POST-DEPLOY",
+												"dependencies": []
+											}
+										]
+									}
+								}
+							}
+						]
+					}
+				],
+				"projects": [
+					{
+						"type": "PROJECT",
+						"referenceId": "@SD-1",
+						"name": "SD-1",
+						"description": ""
+					},
+					{
+						"type": "PROJECT",
+						"referenceId": "@SomeApplication-Deploy-1",
+						"name": "SomeApplication-Deploy-1",
+						"description": ""
+					},
+					{
+						"type": "PROJECT",
+						"referenceId": "@SomeApplication1-Deploy-1",
+						"name": "SomeApplication1-Deploy-1",
+						"description": "SomeApplication1-Deploy-1"
+					}
+				]
+			}
+		}
+	]
+}

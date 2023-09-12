@@ -1,0 +1,128 @@
+Application Name == myweb	Artifact Package Name == myweb_1111_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1111","id":"18"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-15_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-15","id":"36"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo7	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-14_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-14","id":"35"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo6	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-13_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-13","id":"34"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo5	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-12_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-12","id":"33"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-11_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-11","id":"32"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo4	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-10_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-10","id":"31"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo3	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == Package-284	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Version-284","id":"30"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == Package-283	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Version-283","id":"29"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo1	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo153	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1111_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1111","id":"18"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo15	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-RAD-RAD-JOB1-8_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-RAD-RAD-JOB1-8","id":"28"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-RAD-RAD-JOB1-7_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-RAD-RAD-JOB1-7","id":"27"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65675_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65675","id":"17"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-7_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-7","id":"26"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65668_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65668","id":"16"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-4_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-4","id":"25"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65663_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65663","id":"15"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-2_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-2","id":"24"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65658_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65658","id":"14"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-1_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-1","id":"23"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65653_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65653","id":"13"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo13	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build65648_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build65648","id":"12"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo12	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build--1_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build--1","id":"11"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo11	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo10	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo9	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-RAD-RAD-JOB1-6_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-RAD-RAD-JOB1-6","id":"21"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo8	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo7	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo6	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo5	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo4	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo3	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo2	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package_bamboo1	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-16_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-16","id":"20"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-16_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-16","id":"20"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_pbn-15_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"pbn-15","id":"19"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1111_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1111","id":"18"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1111_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1111","id":"18"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65675_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65675","id":"17"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65668_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65668","id":"16"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65663_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65663","id":"15"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65658_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65658","id":"14"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build-65653_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build-65653","id":"13"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build65648_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build65648","id":"12"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_Build--1_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"Build--1","id":"11"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}
+Application Name == myweb	Artifact Package Name == myweb_1.0.0_Package	Deployment Template Name == Deployment-Tomcat
+{"types":{"War":{"id":"9","attributes":["Type","ArtifactId","GroupId"],"definitions":{"myweb.war":{"id":"5","versions":[{"name":"1.0.0","id":"10"}],"attributes":{"ArtifactId":"","GroupId":"","Type":""}}}}}}

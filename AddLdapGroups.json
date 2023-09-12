@@ -1,0 +1,1 @@
+{"list":[{"dn":"cn=Admin,ou=Groups,o=bankai","directoryServerId":"43409000","directoryServerName":"test-LDAP","isLdap":true,"name":"Admin","description":"","ldap":false}],"role":{"type":"superuser"}}

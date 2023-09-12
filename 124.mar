@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><Error xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.ca.com/lisa/invoke/v2.0 Error.xsd" type="application/vnd.ca.lisaInvoke.error+xml" xmlns="http://www.ca.com/lisa/invoke/v2.0"><Id>4200</Id><Message>Authorization failed</Message></Error>

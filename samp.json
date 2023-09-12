@@ -1,0 +1,11 @@
+{
+  "LOGIN_SESSION_ID": "bfc98eae-578e-40dd-ab6b-fc3620f4985f",
+  "sub": "Administrator",
+  "aud": "ALL",
+  "PWD_HASH_CLAIM": "839314283",
+  "iss": "CA Technologies",
+  "USER_ID": "1",
+  "exp": 1642025583,
+  "iat": 1641939183,
+  "ACCESS_PERMISSIONS": "{\"ALL_PROJECTS\":[100]}"
+}
